@@ -1,9 +1,7 @@
-from selenium.common.exceptions import NoSuchElementException     
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-
+from selenium.common.exceptions import NoSuchElementException   
 import time
-import math
 
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 #link = "https://google.com"
